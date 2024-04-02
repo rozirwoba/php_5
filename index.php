@@ -52,7 +52,9 @@
                                 <input type="number" class="form-control" id="nilai" name="nilai"
                                     placeholder="Masukkan Nilai">
                             </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <div class="text-center pt-4">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
                         </form>
                     </div>
                 </div>
