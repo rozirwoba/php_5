@@ -20,11 +20,11 @@ class Mahasiswa {
             return 'A';
         } elseif ($this->nilai >= 75 && $this->nilai <= 84) {
             return 'B';
-        } elseif ($this->nilai >= 70 && $this->nilai <= 74) {
+        } elseif ($this->nilai >= 60 && $this->nilai <= 74) {
             return 'C';
-        } elseif ($this->nilai >= 60 && $this->nilai <= 69) {
+        } elseif ($this->nilai >= 40 && $this->nilai <= 59) {
             return 'D';
-        } elseif ($this->nilai >= 0 && $this->nilai <= 59) {
+        } elseif ($this->nilai >= 0 && $this->nilai <= 49) {
             return 'E';
         } else {
             return 'Tidak Valid';
@@ -39,13 +39,13 @@ class Mahasiswa {
             case ($this->nilai >= 75 && $this->nilai <= 84):
                 return 'Memuaskan';
                 break;
-            case ($this->nilai >= 70 && $this->nilai <= 74):
+            case ($this->nilai >= 60 && $this->nilai <= 74):
                 return 'Cukup';
                 break;
-            case ($this->nilai >= 60 && $this->nilai <= 69):
+            case ($this->nilai >= 40 && $this->nilai <= 59):
                 return 'Kurang';
                 break;
-            case ($this->nilai >= 0 && $this->nilai <= 59):
+            case ($this->nilai >= 0 && $this->nilai <= 49):
                 return 'Buruk';
                 break;
             default:
